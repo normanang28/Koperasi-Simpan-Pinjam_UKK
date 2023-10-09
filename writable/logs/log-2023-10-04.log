@@ -1,0 +1,239 @@
+CRITICAL - 2023-10-04 02:43:38 --> Use of undefined constant gas - assumed 'gas' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\users\anggota\anggota.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 190, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('users/anggota/a...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(413): view('users/anggota/a...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->member()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-04 02:56:24 --> Use of undefined constant gas - assumed 'gas' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\users\anggota\anggota.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 190, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('users/anggota/a...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(413): view('users/anggota/a...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->member()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-04 05:41:56 --> syntax error, unexpected '{', expecting '('
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('users/anggota/a...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(413): view('users/anggota/a...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->member()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-04 05:44:04 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('users/anggota/a...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(413): view('users/anggota/a...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->member()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-04 05:46:42 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('users/anggota/a...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(413): view('users/anggota/a...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->member()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-04 05:46:43 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('users/anggota/a...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(413): view('users/anggota/a...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->member()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-04 05:47:01 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('users/anggota/a...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(413): view('users/anggota/a...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->member()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-04 05:47:10 --> syntax error, unexpected '{', expecting '('
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('users/anggota/a...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(413): view('users/anggota/a...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->member()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-04 06:08:54 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-10-04 06:48:15 --> Invalid file: users/simpanan/simpanan.php
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/simpanan/...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('users/simpanan/...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(676): view('users/simpanan/...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->savings()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-04 06:48:32 --> Invalid file: simpanab/simpanan.php
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('simpanab/simpan...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('simpanab/simpan...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(676): view('simpanab/simpan...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->savings()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-04 06:48:34 --> Invalid file: simpanab/simpanan.php
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('simpanab/simpan...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('simpanab/simpan...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(676): view('simpanab/simpan...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->savings()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-10-04 07:13:55 --> Column 'username' cannot be null
+ERROR - 2023-10-04 07:13:55 --> Column 'nama_anggota' cannot be null
+CRITICAL - 2023-10-04 07:20:18 --> Cannot redeclare App\Controllers\Home::detail_cooperative_officer()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-04 07:20:20 --> Cannot redeclare App\Controllers\Home::detail_cooperative_officer()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-04 07:43:35 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->savings()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-04 07:43:55 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->savings()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-04 07:45:48 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->savings()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-04 07:45:49 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->savings()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-10-04 07:59:48 --> Table 'koperasi_simpan_pinjam.peminjaman' doesn't exist
+CRITICAL - 2023-10-04 07:59:48 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(816): App\Models\M_model->fusionOderBy('peminjaman', 'user', 'peminjaman.make...', 'tanggal_peminja...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-04 08:00:09 --> Table 'koperasi_simpan_pinjam.pinjam' doesn't exist
+CRITICAL - 2023-10-04 08:00:09 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(816): App\Models\M_model->fusionOderBy('pinjam', 'user', 'pinjam.maker_pi...', 'tanggal_peminja...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-04 08:00:11 --> Table 'koperasi_simpan_pinjam.pinjam' doesn't exist
+CRITICAL - 2023-10-04 08:00:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(816): App\Models\M_model->fusionOderBy('pinjam', 'user', 'pinjam.maker_pi...', 'tanggal_peminja...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-04 08:00:28 --> Table 'koperasi_simpan_pinjam.pinjam' doesn't exist
+CRITICAL - 2023-10-04 08:00:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(816): App\Models\M_model->fusionOderBy('pinjam', 'user', 'pinjam.maker_pi...', 'tanggal_peminja...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-04 20:18:21 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('users/anggota/a...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(413): view('users/anggota/a...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->member()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-04 20:20:42 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('users/anggota/a...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(413): view('users/anggota/a...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->member()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-04 20:41:35 --> Use of undefined constant PUBLIC_PATH - assumed 'PUBLIC_PATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 203, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->aksi_change_website_settings()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-04 20:42:05 --> Unknown column 'foto' in 'field list'
+ERROR - 2023-10-04 20:42:34 --> Unknown column 'foto' in 'field list'
+ERROR - 2023-10-04 20:46:21 --> Unknown column 'foto' in 'field list'
+ERROR - 2023-10-04 20:47:44 --> Unknown column 'foto' in 'field list'
+ERROR - 2023-10-04 20:48:59 --> Unknown column 'foto' in 'field list'
+ERROR - 2023-10-04 21:01:47 --> Table 'koperasi_simpan_pinjam.pengguna' doesn't exist
+CRITICAL - 2023-10-04 21:01:47 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(231): App\Models\M_model->edit_pp('pengguna', Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->profile()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

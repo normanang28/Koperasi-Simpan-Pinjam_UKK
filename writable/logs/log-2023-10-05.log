@@ -1,0 +1,1166 @@
+CRITICAL - 2023-10-05 00:33:36 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/test', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1064): view('peminjaman/test')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-10-05 01:43:34 --> Unknown column 'id_pinjaman_laporan' in 'where clause'
+CRITICAL - 2023-10-05 01:46:58 --> Call to a member function database() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->delete_loan('17')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 01:47:17 --> Call to a member function database() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->delete_loan('17')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 01:47:29 --> Call to a member function database() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->delete_loan('17')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 02:05:33 --> Too few arguments to function App\Models\M_model::ultraOderBy(), 6 passed in C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php on line 1240 and exactly 8 expected
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1240): App\Models\M_model->ultraOderBy('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'tanggal_pembaya...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-05 02:06:21 --> Too few arguments to function App\Models\M_model::ultraOderBy(), 6 passed in C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php on line 1240 and exactly 8 expected
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1240): App\Models\M_model->ultraOderBy('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'tanggal_pembaya...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:21:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:angsuran`.`id_angsuran_peminjaman` = pinjaman.id_pinjaman: ESCAPE '!' 
+OR  ...' at line 6
+CRITICAL - 2023-10-05 02:21:42 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', 'q')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:22:33 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:22:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', 'q')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:22:45 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:22:45 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', 'q')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:22:49 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:22:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', 'qq')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:23:11 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:23:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', 'qq')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-05 02:25:16 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::join() must be of the type string, null given, called in C:\xampp\htdocs\koperasi_simpan_pinjam\app\Models\M_model.php on line 368
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Models\M_model.php(368): CodeIgniter\Database\BaseBuilder->join('pinjaman', NULL)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', NULL, 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', 'qq')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-10-05 02:25:19 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:25:19 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', 'qq')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:26:07 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:26:07 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', 'qq')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:26:20 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:26:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', 'qq')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:26:56 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:26:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', 'qq')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:29:11 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:29:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', 'qq')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-05 02:30:13 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::join() must be of the type string, null given, called in C:\xampp\htdocs\koperasi_simpan_pinjam\app\Models\M_model.php on line 368
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Models\M_model.php(368): CodeIgniter\Database\BaseBuilder->join('pinjaman', NULL)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', NULL, 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', '1')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-10-05 02:30:17 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:30:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', '1')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:31:33 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:31:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', '1')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:32:11 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:32:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', '1')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:33:42 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:33:42 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', '1')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:33:57 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:33:57 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1300): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', '1')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:33:59 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:33:59 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1300): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', '1')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:34:05 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:34:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', '1')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:34:19 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:34:19 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', '1')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:34:24 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:34:24 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1300): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', '1')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 02:34:27 --> Unknown column 'angsuran.nama_pinjaman' in 'where clause'
+CRITICAL - 2023-10-05 02:34:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1299): App\Models\M_model->superLike5('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'angsuran.nama_p...', 'angsuran.nama_k...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', '1')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-05 02:41:00 --> Invalid file: angsuran/tambah_angsuran.php
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('angsuran/tambah...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 02:41:33 --> Invalid file: angsuran/tambah_angsuran.php
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('angsuran/tambah...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 02:41:54 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\angsuran\tambah_angsuran.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 02:42:58 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\angsuran\tambah_angsuran.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 02:43:21 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\angsuran\tambah_angsuran.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 02:43:24 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\angsuran\tambah_angsuran.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 02:43:44 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\angsuran\tambah_angsuran.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 02:43:45 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\angsuran\tambah_angsuran.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 02:43:49 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\angsuran\tambah_angsuran.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 02:44:05 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\angsuran\tambah_angsuran.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 02:44:24 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\angsuran\tambah_angsuran.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 02:44:50 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\angsuran\tambah_angsuran.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 02:44:53 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\angsuran\tambah_angsuran.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 02:45:04 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\angsuran\tambah_angsuran.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 02:45:39 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\angsuran\tambah_angsuran.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 02:45:46 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\angsuran\tambah_angsuran.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 02:46:15 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\angsuran\tambah_angsuran.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('angsuran/tambah...', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1329): view('angsuran/tambah...')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->add_installments()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-10-05 06:43:55 --> Duplicate entry 'kelsey' for key 'USERNAME'
+ERROR - 2023-10-05 06:43:55 --> Column 'nama_anggota' cannot be null
+ERROR - 2023-10-05 06:45:27 --> Duplicate entry 'test' for key 'USERNAME'
+CRITICAL - 2023-10-05 07:15:12 --> syntax error, unexpected '$angsuran_ke' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/detail_ins...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/detail_ins...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 07:15:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, `nominal_angsuran`, `keterangan_angsuran`, `maker_angsuran`) VALUES ('1', ...' at line 1
+CRITICAL - 2023-10-05 07:54:09 --> Use of undefined constant gas - assumed 'gas' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\peminjaman\test.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 221, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/test', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1113): view('peminjaman/test')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 07:57:54 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\peminjaman\test.php(90): number_format('Rp. 1', 0, ',', '.')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/test', Array, true)
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1113): view('peminjaman/test')
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-05 07:58:01 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\peminjaman\test.php(90): number_format('Rp. 1', 0, ',', '.')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/test', Array, true)
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1113): view('peminjaman/test')
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-05 07:58:14 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\peminjaman\test.php(90): number_format('Rp. 1', 0, ',', '.')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/test', Array, true)
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1113): view('peminjaman/test')
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-05 07:58:17 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\peminjaman\test.php(90): number_format('Rp. 1', 0, ',', '.')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/test', Array, true)
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1113): view('peminjaman/test')
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-05 07:58:28 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\peminjaman\test.php(90): number_format('Rp. 1', 0, ',', '.')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/test', Array, true)
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1113): view('peminjaman/test')
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-05 07:59:48 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\simpanan\simpanan.php(66): number_format('Rp. 8.000.000', 0, ',', '.')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('simpanan/simpan...', Array, true)
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(969): view('simpanan/simpan...')
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->savings()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-05 08:03:52 --> number_format() expects parameter 1 to be float, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'number_format()...', 'C:\\xampp\\htdocs...', 90, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\peminjaman\test.php(90): number_format('Loan 400000', 0, ',', '.')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/test', Array, true)
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1113): view('peminjaman/test')
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-05 08:26:25 --> Class 'App\Controllers\M_modelPinjaman' not found
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->status_acc_loan()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 08:46:30 --> Too few arguments to function App\Controllers\Home::download(), 0 passed in C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->download()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 08:46:34 --> Too few arguments to function App\Controllers\Home::download(), 0 passed in C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->download()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 08:46:34 --> Too few arguments to function App\Controllers\Home::download(), 0 passed in C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->download()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 09:13:30 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 09:16:10 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 09:16:15 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 09:16:20 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 09:18:01 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 09:18:05 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 09:19:38 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 09:20:01 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 09:20:24 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 09:21:55 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 09:22:48 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 09:23:12 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 09:24:15 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 09:24:23 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 09:27:46 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/loan')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/loan')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-05 09:28:01 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/loan')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/loan')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-05 09:41:37 --> Invalid file: katagori_peminjaman/katagori_peminjaman.php
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('katagori_peminj...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('katagori_peminj...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1489): view('katagori_peminj...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_category()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 09:43:36 --> Invalid file: katagori_peminjaman/katagori_peminjaman.php
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('katagori_peminj...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('katagori_peminj...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1489): view('katagori_peminj...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_category()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 09:43:38 --> Invalid file: katagori_peminjaman/katagori_peminjaman.php
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('katagori_peminj...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('katagori_peminj...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1489): view('katagori_peminj...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_category()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 09:44:00 --> Invalid file: katagori_peminjaman/katagori_peminjaman.php
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('katagori_peminj...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('katagori_peminj...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1489): view('katagori_peminj...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_category()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 09:44:15 --> Invalid file: katagori_peminjaman/katagori_peminjaman.php
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('katagori_peminj...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('katagori_peminj...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1489): view('katagori_peminj...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_category()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 09:44:39 --> Invalid file: katagori_peminjaman/katagori_peminjaman.php
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('katagori_peminj...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('katagori_peminj...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1489): view('katagori_peminj...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_category()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 09:44:42 --> Invalid file: katagori_peminjaman/katagori_peminjaman.php
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('katagori_peminj...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('katagori_peminj...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1489): view('katagori_peminj...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_category()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 09:44:59 --> Invalid file: katagori_peminjaman/katagori_peminjaman.php
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('katagori_peminj...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('katagori_peminj...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1489): view('katagori_peminj...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_category()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 09:45:01 --> Invalid file: katagori_peminjaman/katagori_peminjaman.php
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('katagori_peminj...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('katagori_peminj...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1489): view('katagori_peminj...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_category()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 09:45:02 --> Invalid file: katagori_peminjaman/katagori_peminjaman.php
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('katagori_peminj...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('katagori_peminj...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1489): view('katagori_peminj...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_category()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 09:45:03 --> Invalid file: katagori_peminjaman/katagori_peminjaman.php
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('katagori_peminj...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('katagori_peminj...', Array, true)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1489): view('katagori_peminj...')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_category()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-10-05 09:54:00 --> Column 'username' cannot be null
+ERROR - 2023-10-05 09:54:00 --> Column 'nama_anggota' cannot be null
+CRITICAL - 2023-10-05 10:00:20 --> Too few arguments to function App\Models\M_model::edit(), 2 passed in C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php on line 1558 and exactly 3 expected
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1558): App\Models\M_model->edit('katagori_pinjam...', Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->edit_loan_category('1')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-05 10:00:45 --> Too few arguments to function App\Models\M_model::edit(), 2 passed in C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php on line 1558 and exactly 3 expected
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1558): App\Models\M_model->edit('katagori_pinjam...', Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->edit_loan_category('1')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-05 10:05:16 --> Too few arguments to function App\Models\M_model::edit_coba(), 2 passed in C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php on line 1558 and exactly 3 expected
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1558): App\Models\M_model->edit_coba('katagori_pinjam...', Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->edit_loan_category('1')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-05 10:06:58 --> Too few arguments to function App\Models\M_model::edit(), 2 passed in C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php on line 1558 and exactly 3 expected
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1558): App\Models\M_model->edit('katagori_pinjam...', Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->edit_loan_category('1')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 10:09:52 --> Duplicate entry 'nama_katagori' for key 'KATAGORI'
+CRITICAL - 2023-10-05 10:15:30 --> syntax error, unexpected '$where' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/loan_categ...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/loan_categ...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 21:39:02 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-10-05 21:39:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Models\M_model.php(293): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(35): App\Models\M_model->getRow('settings_websit...', Array)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-10-05 21:56:45 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in C:\xampp\htdocs\koperasi_simpan_pinjam\app\Models\M_model.php on line 308
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Models\M_model.php(308): CodeIgniter\Database\BaseBuilder->update('user', 'katagori_pinjam...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1563): App\Models\M_model->edit('katagori_pinjam...', 'user', 'katagori_pinjam...', Array)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->edit_loan_category('11')
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-10-05 22:04:02 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, array given, called in C:\xampp\htdocs\koperasi_simpan_pinjam\app\Models\M_model.php on line 369
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Models\M_model.php(369): CodeIgniter\Database\BaseBuilder->like('simpanan.nama_s...', Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(997): App\Models\M_model->superLike3('simpanan', 'user', 'simpanan.maker_...', 'simpanan.nama_s...', 'simpanan.nomina...', 'simpanan.tangga...', Array)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->savings_search()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-10-05 22:04:09 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, array given, called in C:\xampp\htdocs\koperasi_simpan_pinjam\app\Models\M_model.php on line 369
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Models\M_model.php(369): CodeIgniter\Database\BaseBuilder->like('simpanan.nama_s...', Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(997): App\Models\M_model->superLike3('simpanan', 'user', 'simpanan.maker_...', 'simpanan.nama_s...', 'simpanan.nomina...', 'simpanan.tangga...', Array)
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->savings_search()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-10-05 22:05:40 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1002): CodeIgniter\Model->__call('orGroupStart', Array)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->savings_search()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 22:13:46 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 22:14:03 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 22:14:49 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 22:15:34 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 22:15:40 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 22:15:44 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\peminjaman\test.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/test', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1185): view('peminjaman/test')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 22:15:50 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\peminjaman\test.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/test', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1185): view('peminjaman/test')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 22:17:37 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\peminjaman\test.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/test', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1194): view('peminjaman/test')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 22:18:16 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Views\peminjaman\test.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Common.php(1089): CodeIgniter\View\View->render('peminjaman/test', Array, true)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1194): view('peminjaman/test')
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->loan_search()
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-10-05 22:32:56 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-10-05 22:33:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 13
+CRITICAL - 2023-10-05 22:33:02 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(1438): App\Models\M_model->superLikeAngsuran('angsuran', 'pinjaman', 'katagori_pinjam...', 'user', 'angsuran.id_ang...', 'angsuran.id_ang...', 'angsuran.maker_...', 'pinjaman.nama_p...', 'katagori_pinjam...', 'angsuran.angsur...', 'angsuran.nomina...', 'angsuran.tangga...', 'Village Unit Sa...', NULL)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->installments_search_member()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-10-05 22:53:48 --> Duplicate entry '1' for key 'KATAGORI'
+CRITICAL - 2023-10-05 22:59:57 --> Call to a member function simpan() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->status_acc_loan()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 23:01:21 --> Call to a member function simpan() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->delete_loan('37')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 23:01:37 --> Call to a member function simpan() on null
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->status_acc_loan()
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 23:19:35 --> Cannot redeclare App\Controllers\Home::aksi_change_profile()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-10-05 23:37:29 --> syntax error, unexpected '$id' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/add_cooper...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/add_cooper...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-05 23:38:31 --> syntax error, unexpected '$id' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/add_cooper...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/add_cooper...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-05 23:40:19 --> syntax error, unexpected '$id' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/add_cooper...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/add_cooper...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-05 23:41:31 --> syntax error, unexpected '$id' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/cooperativ...')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/cooperativ...')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-05 23:41:33 --> syntax error, unexpected '$id' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-05 23:42:46 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(696): CodeIgniter\Model->__call('edit_user', Array)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->edit_cooperative_officer('20')
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 23:43:17 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(696): CodeIgniter\Model->__call('edit_user', Array)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->edit_cooperative_officer('20')
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-10-05 23:44:53 --> Unknown column 'id_log_user' in 'field list'
+ERROR - 2023-10-05 23:45:02 --> Unknown column 'id_log_user' in 'field list'
+ERROR - 2023-10-05 23:45:05 --> Unknown column 'id_log_user' in 'field list'
+CRITICAL - 2023-10-05 23:45:22 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(973): CodeIgniter\Model->__call('edit_user', Array)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->edit_member('27')
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 23:46:53 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(696): CodeIgniter\Model->__call('edit_user', Array)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->edit_cooperative_officer('20')
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 23:48:37 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(696): CodeIgniter\Model->__call('edit_user', Array)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->edit_cooperative_officer('20')
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 23:48:38 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(696): CodeIgniter\Model->__call('edit_user', Array)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->edit_cooperative_officer('20')
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 23:48:47 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(696): CodeIgniter\Model->__call('edit_user', Array)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->edit_cooperative_officer('20')
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 23:49:26 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(696): CodeIgniter\Model->__call('edit_user', Array)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->edit_cooperative_officer('20')
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 23:49:53 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\koperasi_simpan_pinjam\app\Controllers\Home.php(696): CodeIgniter\Model->__call('edit_user', Array)
+#3 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(832): App\Controllers\Home->edit_cooperative_officer('20')
+#4 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\koperasi_simpan_pinjam\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\koperasi_simpan_pinjam\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\koperasi_simpan_pinjam\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
